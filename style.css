@@ -1,0 +1,105 @@
+:root {
+  --paper: #fbf7f0;
+  --card: #f4ece0;
+  --ink: #2b2622;
+  --ink-soft: #6b635a;
+  --hairline: #e3d9c9;
+  --amber: #b07a2c;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  line-height: 1.65;
+  font-size: 18px;
+}
+
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 56px 22px 80px;
+}
+
+header.masthead {
+  margin-bottom: 28px;
+}
+
+.brand {
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.tagline {
+  color: var(--ink-soft);
+  margin: 6px 0 0;
+}
+
+nav.top {
+  margin: 22px 0 0;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--hairline);
+}
+
+nav.top a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  margin-right: 18px;
+  font-size: 15px;
+}
+
+nav.top a:hover { color: var(--amber); }
+
+h1 { font-size: 28px; font-weight: 600; margin: 36px 0 6px; }
+h2 { font-size: 20px; font-weight: 600; margin: 30px 0 8px; }
+
+.updated { color: var(--ink-soft); font-size: 14px; margin: 0 0 8px; }
+
+a { color: var(--amber); }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+th, td {
+  text-align: left;
+  vertical-align: top;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--hairline);
+}
+
+th { color: var(--ink-soft); font-weight: 600; }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+  padding: 20px 22px;
+  margin: 22px 0;
+}
+
+ul { padding-left: 22px; }
+li { margin: 6px 0; }
+
+footer {
+  margin-top: 56px;
+  padding-top: 20px;
+  border-top: 1px solid var(--hairline);
+  color: var(--ink-soft);
+  font-size: 14px;
+}
+
+.home-links { list-style: none; padding: 0; margin: 28px 0; }
+.home-links li { margin: 0 0 14px; }
+.home-links a { font-size: 20px; text-decoration: none; }
+.home-links span { display: block; color: var(--ink-soft); font-size: 15px; }
